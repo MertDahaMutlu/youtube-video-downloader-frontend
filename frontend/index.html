@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1 class="title">YouTube Video Downloader</h1>
+
+    <label class="label" for="url">YouTube URL</label>
+    <input id="url" type="text" placeholder="https://www.youtube.com/watch?v=..." />
+
+    <div class="controls">
+      <div class="video-controls">
+        <label for="quality">Quality</label>
+        <select id="quality">
+          <option value="best">Best</option>
+          <option value="1080">1080p</option>
+          <option value="720">720p</option>
+          <option value="480">480p</option>
+          <option value="360">360p</option>
+          <option value="240">240p</option>
+          <option value="144">144p</option>
+        </select>
+        <button id="downloadVideo">Download Video</button>
+      </div>
+
+      <div class="audio-controls">
+        <button id="downloadAudio">Download Audio (MP3)</button>
+      </div>
+    </div>
+
+    <div id="status" class="status">Ready</div>
+
+    <footer class="footer">
+      <a id="madeby" href="https://github.com/MertDahaMutlu" target="_blank" rel="noopener noreferrer">made by Mert Mutlu</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
