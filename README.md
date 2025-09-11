@@ -16,9 +16,10 @@ A simple web-based YouTube video downloader built with **Python (FastAPI)** for 
 ## 📂 Project Structure
 ```
 youtube-downloader/
-│── main.py          # Backend (FastAPI server)
-│── requirements.txt # Dependencies
-│── static/
+│── backend/
+│   ├── main.py          # Backend (FastAPI server)
+│   └── requirements.txt # Dependencies
+│── frontend/
 │   ├── index.html   # Frontend page
 │   ├── script.js    # Client-side logic
 │   └── style.css    # Styling
