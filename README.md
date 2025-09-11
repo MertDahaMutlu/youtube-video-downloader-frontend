@@ -77,11 +77,6 @@ pip install fastapi uvicorn yt-dlp
 
 ---
 
-## 📸 Screenshots
-*(You can add screenshots of the UI here)*
-
----
-
 ## ⚠️ Disclaimer
 This project is for **educational purposes only**.  
 Downloading copyrighted content without permission may violate YouTube’s Terms of Service. Use responsibly.
