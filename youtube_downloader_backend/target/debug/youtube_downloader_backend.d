@@ -1,1 +1,0 @@
-C:\Users\merta\OneDrive\Masaüstü\Kod\youtube-downloader\youtube_downloader_backend\target\debug\youtube_downloader_backend.exe: C:\Users\merta\OneDrive\Masaüstü\Kod\youtube-downloader\youtube_downloader_backend\src\main.rs
